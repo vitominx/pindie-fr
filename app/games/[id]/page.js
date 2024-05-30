@@ -54,7 +54,9 @@ export default function GamePage(props) {
         };
       });
       setIsVoted(true);
+      
     }
+    window.location.reload();
   };
 
   return (
